@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  background-color: #F5E9DA;
+  color: #333333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #F5F5F5;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #A8C3A7;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav li {
+  cursor: pointer;
+  font-weight: 500;
+  color: #333333;
+}
+
+nav .active {
+  color: #A8C3A7;
+  font-weight: 600;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2rem;
+  background-color: #F5E9DA;
+}
+
+.hero .text h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero p {
+  max-width: 400px;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.btn {
+  background-color: #A8C3A7;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: #F5F5F5;
+}
+
+.service {
+  text-align: center;
+  font-weight: 600;
+}
+
+.service small {
+  display: block;
+  margin-top: 0.4rem;
+  font-weight: 400;
+  color: #333333;
+}
+
+.portfolio {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: #EEF3ED;
+}
+
+.portfolio .cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 12px;
+  width: 200px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  font-weight: 500;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card h3 {
+  font-weight: 700;
+  margin-top: 0.5rem;
+  color: #000000;
+}
+
+.card p {
+  color: #333333;
+}
+
+.blog {
+  padding: 3rem 2rem;
+  background-color: #F5F5F5;
+}
+
+.posts {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.post {
+  background-color: #EEF3ED;
+  padding: 1rem;
+  border-radius: 12px;
+  flex: 1;
+  font-weight: 400;
+}
+
+.post h4 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #000000;
+}
+
+.cta {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #F5E9DA;
+}
+
+.cta h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
+  color: #333333;
+}
+
+footer {
+  background-color: #F5F5F5;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #333333;
+  border-top: 1px solid #ccc;
+}
+
+footer a {
+  color: #A8C3A7;
+  text-decoration: none;
+}
+
+.socials span {
+  margin-left: 0.75rem;
+  font-size: 1.2rem;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  background-color: #F5E9DA;
+  color: #333333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #EEF3ED;
+}
+
+.nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.nav .active {
+  font-weight: 700;
+  border-bottom: 2px solid #000;
+}
+
+.main {
+  padding: 2rem;
+}
+
+.profile-section {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.profile-img {
+  width: 250px;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.bio {
+  max-width: 600px;
+  margin: 1rem auto;
+}
+
+.funfact-section {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.funfacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.funfact-card {
+  background-color: #EEF3ED;
+  border: 1px solid #A8C3A7;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 280px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.funfact-card h4 {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #000;
+}
+
+.cta {
+  background-color: #F5F5F5;
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.cta h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.cta p {
+  max-width: 500px;
+  margin: 1rem auto;
+  font-weight: 400;
+}
+
+.btn {
+  background-color: #A8C3A7;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #8DAF8F;
+  transform: scale(1.05);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #F5F5F5;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #A8C3A7;
+  text-decoration: none;
+}
+
+.footer-icons a {
+  margin-left: 1rem;
+}
