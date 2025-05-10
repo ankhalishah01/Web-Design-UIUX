@@ -326,3 +326,430 @@ body {
 .footer-icons a {
   margin-left: 1rem;
 }
+
+/* === Portfolio Page Styles === */
+.portfolio-page {
+  padding: 4rem 2rem;
+  background-color: #F5E9DA;
+  color: #333333;
+}
+
+.portfolio-intro h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-intro p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #555555;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.portfolio-item {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+  transform: translateY(-5px);
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.portfolio-info {
+  padding: 1rem;
+}
+
+.portfolio-info h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio-info p {
+  font-size: 0.95rem;
+  color: #333333;
+  font-weight: 400;
+}
+
+/* === Call To Action Section === */
+.cta-portfolio {
+  background-color: #EEF3ED;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.cta-portfolio h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 1rem;
+}
+
+.cta-portfolio p {
+  font-size: 1rem;
+  color: #555555;
+  margin-bottom: 1.5rem;
+}
+
+.cta-portfolio .btn {
+  background-color: #A8C3A7;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.cta-portfolio .btn:hover {
+  background-color: #8DAF8F;
+}
+
+/* === Footer Styles === */
+footer {
+  background-color: #F5F5F5;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #333333;
+  border-top: 1px solid #ccc;
+}
+
+footer .socials a {
+  margin-left: 1rem;
+  color: #A8C3A7;
+  text-decoration: none;
+}
+
+footer .socials a:hover {
+  text-decoration: underline;
+}
+
+.blog-hero {
+  background-color: #F5E9DA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+
+.blog-hero .text {
+  max-width: 500px;
+}
+
+.blog-hero h2 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
+.blog-hero h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+}
+
+.blog-hero p {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.blog-hero .btn {
+  background-color: #A8C3A7;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.blog-hero img {
+  width: 380px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.blog-list {
+  background-color: #F5F5F5;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 3rem 2rem;
+  flex-wrap: wrap;
+}
+
+.blog-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 280px;
+}
+
+.blog-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.blog-card .content {
+  padding: 1rem;
+}
+
+.blog-card .category {
+  font-size: 0.8rem;
+  color: #A8C3A7;
+  font-weight: 500;
+}
+
+.blog-card h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+  color: #1a1a1a;
+}
+
+.blog-card p {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.playlist-section {
+  display: flex;
+  padding: 3rem 2rem;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+}
+
+.playlist-section .list {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.playlist-section .list h4 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.playlist-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  padding: 0.75rem 0;
+  font-size: 0.9rem;
+}
+
+.playlist-item img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 0.75rem;
+}
+
+.playlist-section .grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.video-card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #EEF3ED;
+  text-align: center;
+}
+
+.video-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.video-card .btn {
+  margin: 0.5rem 0;
+}
+
+.cta-section {
+  background-color: #F5E9DA;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 2rem;
+  align-items: center;
+}
+
+.cta-section h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.cta-section p {
+  max-width: 500px;
+  font-weight: 400;
+}
+
+.cta-section .btn {
+  margin-top: 1rem;
+}
+
+footer {
+  padding: 1rem 2rem;
+  background-color: #F5F5F5;
+  font-size: 0.85rem;
+  color: #555;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-icons a {
+  margin-left: 1rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background: #fff;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 5%;
+  background-color: #EEF3ED;
+}
+.logo {
+  height: 40px;
+}
+.nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+.nav a.active {
+  font-weight: bold;
+  border-bottom: 2px solid #333;
+}
+
+/* Contact */
+.contact-section {
+  padding: 60px 5%;
+}
+.contact-heading h3 {
+  text-align: center;
+}
+.contact-heading .active-tab {
+  font-weight: bold;
+  border-bottom: 3px solid #333;
+}
+.contact-container {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+}
+.contact-form {
+  flex: 1;
+}
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  background: transparent;
+}
+.contact-form button {
+  background-color: #A8C3A7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.contact-info {
+  flex: 1;
+}
+.info-block {
+  margin-bottom: 30px;
+}
+.icon-line {
+  color: #A8C3A7;
+  font-weight: 600;
+}
+
+/* Shall We */
+.shall-we {
+  display: flex;
+  background: #F5E9DA;
+  padding: 60px 5%;
+}
+.shall-we .left {
+  flex: 1;
+}
+.shall-we .left h1 {
+  font-size: 64px;
+  font-weight: 900;
+}
+.shall-we .right {
+  flex: 1;
+}
+.shall-we button {
+  margin-top: 16px;
+  background-color: #A8C3A7;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+/* Footer */
+.footer {
+  background: #F5F5F5;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+.footer span {
+  color: #A8C3A7;
+}
+.social-icons a {
+  margin: 0 6px;
+  text-decoration: none;
+  font-size: 18px;
+}
