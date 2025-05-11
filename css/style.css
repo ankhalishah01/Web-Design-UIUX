@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
 
+/* === Home Page Styles === */
 body {
   margin: 0;
   font-family: 'Nunito', sans-serif;
@@ -186,7 +187,7 @@ footer a {
 }
 
 
-
+/* === About Page Styles === */
 body {
   margin: 0;
   font-family: 'Nunito', sans-serif;
@@ -327,6 +328,7 @@ body {
   margin-left: 1rem;
 }
 
+
 /* === Portfolio Page Styles === */
 .portfolio-page {
   padding: 4rem 2rem;
@@ -423,6 +425,7 @@ body {
 .cta-portfolio .btn:hover {
   background-color: #8DAF8F;
 }
+
 
 /* === Footer Styles === */
 footer {
@@ -635,6 +638,8 @@ footer {
   color: #333;
 }
 
+
+/* === Contact Page Styles === */
 body {
   font-family: 'Nunito', sans-serif;
   margin: 0;
@@ -643,7 +648,6 @@ body {
   background: #fff;
 }
 
-/* Header */
 .header {
   display: flex;
   justify-content: space-between;
@@ -664,7 +668,6 @@ body {
   border-bottom: 2px solid #333;
 }
 
-/* Contact */
 .contact-section {
   padding: 60px 5%;
 }
