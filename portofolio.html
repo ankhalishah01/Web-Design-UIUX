@@ -2,104 +2,144 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Portfolio - Azmi Nadhifah Khalishah</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <div class="logo"> <img src="logo.png" alt="Logo" /> </div>
+  <header class="header-inner">
+    <img class="logo" src="img/logo web.png" alt="Azmi Khalishah Signature" />
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a class="active" href="portfolio.html">Portfolio</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="portofolio.html" class="active">Portfolio</a></li>
+        <li><a href="blog.html" class="nav-link">Blog</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="section-title">
-    <h2><span class="underline">Portfolio</span> — Peep My Work!</h2>
-    <p>Here’s a lil’ sneak peek of what I’ve been up to! From cool projects to random creative sparks — check ’em out!</p>
-  </section>
+<!-- ===== PORTFOLIO SECTION ===== -->
+<section class="portfolio-section">
+  <div class="portfolio-header-wrapper">
+    <div class="portfolio-header">
+      <span class="portfolio-title">Portfolio</span>
+      <span class="portfolio-divider"></span>
+      <span class="portfolio-subtitle">Peep My Work!</span>
+    </div>
+    <p class="portfolio-desc">
+      Here’s a lil’ sneak peek of what I’ve been up to! From cool projects to random creative sparks – check ’em out!
+    </p>
+  </div>
 
-  <section class="portfolio-list">
-    <div class="portfolio-item">
-      <img src="umkm.png" alt="UMKM Go Digital">
+  <div class="portfolio-grid">
+    <div class="portfolio-card">
+      <img src="img/povi project.jpg" alt="UMKM Go Digital">
       <div>
         <h3>Digital Marketing – <span>UMKM Go Digital</span></h3>
         <p>Strategi branding & pemasaran digital untuk meningkatkan visibilitas produk mini proyektor LED.</p>
       </div>
     </div>
-    <div class="portfolio-item">
-      <img src="dashboard.png" alt="Dashboard Analitik">
+    <div class="portfolio-card">
+      <img src="img/budget tracker project.jpg" alt="Dashboard Analitik">
       <div>
         <h3>Data Science – <span>Dashboard Analitik</span></h3>
         <p>Pembuatan dashboard interaktif untuk analisis pengeluaran & budgeting.</p>
       </div>
     </div>
-    <div class="portfolio-item">
-      <img src="promo.png" alt="Desain Poster Promo">
+    <div class="portfolio-card">
+      <img src="img/digimar project.jpg" alt="Desain Poster Promo">
       <div>
         <h3>Digital Marketing – <span>Desain Poster Promo & Iklan</span></h3>
         <p>Pembuatan desain iklan digital & promosi untuk berbagai platform.</p>
       </div>
     </div>
-    <div class="portfolio-item">
-      <img src="branding.png" alt="Branding Perusahaan">
+    <div class="portfolio-card">
+      <img src="img/sunle project.png" alt="Branding Perusahaan">
       <div>
         <h3>Pengantar Manajemen – <span>Branding Perusahaan Skincare (Sunlee)</span></h3>
         <p>Perancangan branding & strategi bisnis untuk Sunlee Skin, sebuah brand skincare.</p>
       </div>
     </div>
-    <div class="portfolio-item">
-      <img src="ecommerce.png" alt="E-Commerce Website">
+    <div class="portfolio-card">
+      <img src="img/ecom project.png" alt="E-Commerce Website">
       <div>
         <h3>E-Commerce – <span>Website</span></h3>
         <p>Pengembangan website e-commerce, mulai dari desain UI/UX hingga strategi pemasaran.</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="tools-skill">
+<!-- ===== TOOLS & SKILL SECTION ===== -->
+<section class="tools-section">
+  <div class="tools-title">
     <h2><span class="underline">Tools & Skill</span></h2>
-    <p>A lil’ showcase of the stuff I use to make things happen</p>
-    <div class="skills-grid">
-      <div class="skill-card">
+    <div class="tools-line"></div>
+  </div>
+  <p class="tools-desc">A lil’ showcase of the stuff I use to make things happen</p>
+  <div class="tools-grid">
+    <div class="tools-card">
+      <div class="tools-icon"><i class="fa-regular fa-star"></i></div>
+      <div>
         <h4>Digital Marketing</h4>
         <p>Social media strategy, branding, & content planning</p>
       </div>
-      <div class="skill-card">
+    </div>
+    <div class="tools-card">
+      <div class="tools-icon"><i class="fa-regular fa-star"></i></div>
+      <div>
         <h4>UI/UX & Web Basics</h4>
         <p>Figma, Webflow, basic website design (WordPress, Miro)</p>
       </div>
-      <div class="skill-card">
+    </div>
+    <div class="tools-card">
+      <div class="tools-icon"><i class="fa-regular fa-star"></i></div>
+      <div>
         <h4>Content Creation</h4>
         <p>Canva, CapCut, & storytelling</p>
       </div>
-      <div class="skill-card">
+    </div>
+    <div class="tools-card">
+      <div class="tools-icon"><i class="fa-regular fa-star"></i></div>
+      <div>
         <h4>Self-Development</h4>
         <p>Time management, productivity, & collaboration (Google Keep, Google Workspace)</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
+  <!-- CTA -->
+<section class="cta">
+  <div class="cta-left">
+    <h1>Shall<br>we?</h1>
+  </div>
+  <div class="cta-right">
+    <p>
+      I believe in learning, sharing, and collaborating to create something meaningful. If you’re into digital business, content creation, or self-growth, Let’s share ideas, collab, or just talk about life!
+    </p>
+    <a href="mailto:ankhalishah01@email.com" class="btn-cta">
+      <i class="fa-regular fa-paper-plane"></i>
+      Email me
+    </a>
+  </div>
+</section>
+
+  <!-- FOOTER -->
   <footer>
-    <section class="cta">
-      <h1>Shall we?</h1>
-      <p>I believe in learning, sharing, and collaborating to create something meaningful. If you’re into digital business, content creation, or self-growth, let’s share ideas, collab, or just talk about life!</p>
-      <a href="mailto:your.email@example.com" class="btn">📨 Email me</a>
-    </section>
-    <p class="copyright">© 2025 All rights reserved by <a href="#">Azmi Nadhifah Khalishah</a>.</p>
-    <div class="social-icons">
-      <a href="#">🔗</a>
-      <a href="#">📸</a>
-      <a href="#">📘</a>
-      <a href="#">✖️</a>
-      <a href="#">▶️</a>
+    <div class="footer-left">
+      © 2025 All rights reserved by <a href="#">Azmi Nadhifah Khalishah</a>
+    </div>
+    <div class="footer-right">
+      <a href="https://www.facebook.com/Azmiiw" title="facebook"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.instagram.com/azmiiw._?igsh=dDdtaWI5cnRtMzVw" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://open.spotify.com/user/hreagyjqjpk4z2603cy283cqj?si=dfc46aaea09841a3" title="Spotify"><i class="fa-brands fa-spotify"></i></a>
+      <a href="https://twitter.com/pinggangueksleo?t=SwnjrtgIlw8y5N5lDcB1MA&s=08" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="https://youtube.com/@ankhalishah01?si=Mlu_X05teUSy5GyH" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
     </div>
   </footer>
 </body>

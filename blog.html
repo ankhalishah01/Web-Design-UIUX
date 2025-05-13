@@ -3,115 +3,140 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog</title>
+  <title>Blog - Azmi Nadhifah Khalishah</title>
   <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-  <header>
+  <header class="header-inner">
+    <img class="logo" src="img/logo web.png" alt="Azmi Khalishah Signature" />
     <nav>
-      <img src="logo.svg" alt="Logo">
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#" class="active">Blog</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="portofolio.html" class="nav-link">Portfolio</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="blog-hero">
-    <div class="text">
-      <h2>Self Development</h2>
-      <h1>Self-Care Bukan Cuma Skincare-an!</h1>
-      <p>Banyak orang ngira self-care itu cuma tentang skincare atau me-time, padahal ada banyak aspek lain yang lebih penting.</p>
-      <a href="#" class="btn">Read More →</a>
-    </div>
+  <!-- ===== BLOG SECTION ===== -->
+<section class="blog-hero">
+  <div class="about-header">
+    <span class="about-title active">Blog</span>
+    <span class="about-divider"></span>
+    <span class="about-subtitle">Brain Dump & Real Talks!</span>
+  </div>
+
+  <div class="blog-hero-left">
+    <div class="blog-category">Self Development</div>
+    <h1 class="blog-main-title">Self-Care Bukan Cuma Skincare-an!</h1>
+    <p class="blog-hero-desc">
+      Banyak orang ngira self-care itu cuma tentang skincare atau me-time, padahal ada banyak aspek lain yang lebih penting.
+    </p>
+    <a href="#" class="btn btn-main">Read More</a>
+  </div>
+  <div class="blog-hero-right">
     <img src="blog-main.jpg" alt="Self-care Image">
-  </section>
+  </div>
+</section>
 
-  <section class="blog-list">
+<!-- ===== BLOG GRID ===== -->
+<section class="blog-grid">
+  <div class="blog-cards-row">
     <div class="blog-card">
-      <img src="blog1.jpg" alt="Blog 1">
-      <div class="content">
-        <p class="category">Self Development</p>
+      <div class="blog-card-image" style="background-image: url('blog1.jpg');">
+        <div class="blog-card-category">Self Development</div>
+        <div class="blog-card-underline"></div>
+      </div>
+      <div class="blog-card-content">
         <h3>Self-Growth Bukan Lomba! Kenapa Kita Sering Merasa ‘Tertinggal’?</h3>
-        <a href="#" class="btn">Read More →</a>
+        <a href="#" class="btn btn-main">Read More</a>
       </div>
     </div>
     <div class="blog-card">
-      <img src="blog2.jpg" alt="Blog 2">
-      <div class="content">
-        <p class="category">Self Development</p>
+      <div class="blog-card-image" style="background-image: url('blog2.jpg');">
+        <div class="blog-card-category">Self Development</div>
+        <div class="blog-card-underline"></div>
+      </div>
+      <div class="blog-card-content">
         <h3>The Art of Saying No: Cara Menolak Tanpa Merasa Bersalah</h3>
-        <a href="#" class="btn">Read More →</a>
+        <a href="#" class="btn btn-main">Read More</a>
       </div>
     </div>
     <div class="blog-card">
-      <img src="blog3.jpg" alt="Blog 3">
-      <div class="content">
-        <p class="category">Self Development</p>
+      <div class="blog-card-image" style="background-image: url('blog3.jpg');">
+        <div class="blog-card-category">Self Development</div>
+        <div class="blog-card-underline"></div>
+      </div>
+      <div class="blog-card-content">
         <h3>Nggak Harus Jadi Ekstrovert untuk Sukses: Kekuatan Introvert dalam Self-Branding</h3>
-        <a href="#" class="btn">Read More →</a>
+        <a href="#" class="btn btn-main">Read More</a>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="playlist-section">
-    <div class="list">
-      <h4>Playlist & Recommendation</h4>
-      <p>A lil’ showcase of podcasts & videos that fuel self-love, branding, and personal growth. Take a look!</p>
+<!-- ===== PLAYLIST & RECOMMENDATION ===== -->
+<section class="playlist-section">
+  <div class="playlist-list">
+    <div class="playlist-title">Playlist & Recommendation</div>
+    <div class="playlist-desc">
+      A lil’ showcase of podcasts & videos that fuel self-love, branding, and personal growth. Take a look!
+    </div>
+    <div class="playlist-items">
       <div class="playlist-item">
-        <span>Busy, Yet Pretty</span>
-        <span>The Cost Of Procrastination Is The Life You Could’ve Lived</span>
+        <span class="playlist-name">Busy, Yet Pretty</span>
+        <span class="playlist-detail">The Cost Of Procrastination Is The Life You Could’ve Lived</span>
       </div>
       <div class="playlist-item">
-        <span>Busy, Yet Pretty</span>
-        <span>The 80/20 Rule: Your Guide to Balance</span>
+        <span class="playlist-name">Busy, Yet Pretty</span>
+        <span class="playlist-detail">The 80/20 Rule: Your Guide to Balance</span>
       </div>
       <div class="playlist-item">
-        <span>Thewizardliz</span>
+        <span class="playlist-name">Thewizardliz</span>
       </div>
       <div class="playlist-item">
-        <span>Rintik Sedu</span>
+        <span class="playlist-name">Rintik Sedu</span>
       </div>
     </div>
-    <div class="grid">
-      <div class="video-card">
-        <img src="video1.jpg" alt="Video 1">
-        <a href="#" class="btn">See More</a>
-      </div>
-      <div class="video-card">
-        <img src="video2.jpg" alt="Video 2">
-        <a href="#" class="btn">See More</a>
-      </div>
-      <div class="video-card">
-        <img src="video3.jpg" alt="Video 3">
-        <a href="#" class="btn">See More</a>
-      </div>
-      <div class="video-card">
-        <img src="video4.jpg" alt="Video 4">
-        <a href="#" class="btn">See More</a>
-      </div>
+  </div>
+  <div class="playlist-videos">
+    <div class="video-card">
+      <img src="video1.jpg" alt="Video 1">
+      <a href="#" class="btn btn-main">See More</a>
     </div>
-  </section>
+    <div class="video-card">
+      <img src="video2.jpg" alt="Video 2">
+      <a href="#" class="btn btn-main">See More</a>
+    </div>
+    <div class="video-card">
+      <img src="video3.jpg" alt="Video 3">
+      <a href="#" class="btn btn-main">See More</a>
+    </div>
+    <div class="video-card">
+      <img src="video4.jpg" alt="Video 4">
+      <a href="#" class="btn btn-main">See More</a>
+    </div>
+  </div>
+</section>
 
-  <section class="cta-section">
+  <section class="cta">
     <h1>Shall we?</h1>
-    <div>
-      <p>I believe in learning, sharing, and collaborating to create something meaningful. Let’s share ideas, collab, or just talk about life!</p>
-      <a href="#" class="btn">✉ Email me</a>
-    </div>
+    <p>I believe in learning, sharing, and collaborating to create something meaningful. Let’s share ideas, collab, or just talk about life!</p>
+    <a href="mailto:ankhalishah01@email.com" class="btn">✉ Email me</a>
   </section>
 
   <footer>
     <p>© 2025 All rights reserved by <a href="#">Azmi Nadhifah Khalishah</a></p>
-    <div class="footer-icons">
-      <a href="#">🌐</a>
-      <a href="#">📷</a>
-      <a href="#">🎵</a>
-      <a href="#">📺</a>
+    <div class="socials">
+    <a href="#" title="facebook"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="#" title="Spotify"><i class="fa-brands fa-spotify"></i></a>
+    <a href="#" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+    <a href="#" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
     </div>
   </footer>
 </body>

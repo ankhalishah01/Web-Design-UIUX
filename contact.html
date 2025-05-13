@@ -6,85 +6,98 @@
   <title>Contact</title>
   <link rel="stylesheet" href="css/style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-  <header class="header">
-    <img src="logo.png" alt="Logo" class="logo" />
-    <nav class="nav">
-      <a href="index.html">HOME</a>
-      <a href="about.html">ABOUT</a>
-      <a href="portfolio.html">PORTFOLIO</a>
-      <a href="blog.html">BLOG</a>
-      <a href="#" class="active">CONTACT</a>
+  <header class="header-inner">
+    <img class="logo" src="img/logo web.png" alt="Azmi Khalishah Signature" />
+    <nav>
+      <ul>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="portofolio.html" class="nav-link">Portfolio</a></li>
+        <li><a href="blog.html" class="nav-link">Blog</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
     </nav>
   </header>
-
+  
   <main class="contact-section">
-    <div class="contact-heading">
-      <h3><span class="active-tab">Contact</span> — Let’s Collaborate!</h3>
-      <p>Got a cool idea or just wanna say hi? Don’t be shy, hit me up!</p>
-    </div>
+  <div class="contact-header">
+    <span class="contact-title active">Contact</span>
+    <span class="contact-divider"></span>
+    <span class="contact-subtitle">Let’s Collaborate!</span>
+  </div>
+  <p class="contact-intro">Got a cool idea or just wanna say hi? Don’t be shy, hit me up!</p>
 
-    <div class="contact-container">
-      <form class="contact-form">
-        <h4>Drop Me a Message</h4>
-        <p>Mau reach out? Bisa banget lewat form ini!</p>
-        <div class="form-row">
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email Address" />
-        </div>
-        <div class="form-row">
-          <select>
-            <option>Interested In</option>
+  <div class="contact-main">
+    <form class="contact-form">
+      <h4>Drop Me a Message</h4>
+      <p class="form-desc">Mau reach out? Bisa banget lewat form ini!</p>
+      <div class="form-row">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email Address" required>
+      </div>
+      <div class="form-row">
+        <div class="select-wrapper">
+          <select required>
+            <option value="" disabled selected>Interested In</option>
             <option>Collaboration</option>
             <option>Question</option>
             <option>Other</option>
           </select>
-          <input type="text" placeholder="Phone Number" />
+          <span class="select-arrow"><i class="fa-solid fa-chevron-down"></i></span>
         </div>
-        <textarea placeholder="Message"></textarea>
-        <button type="submit">→ Submit</button>
-      </form>
+        <input type="text" placeholder="Phone Number">
+      </div>
+      <textarea placeholder="Message" rows="3" required></textarea>
+      <button type="submit" class="submit-btn">→ Submit</button>
+    </form>
 
-      <div class="contact-info">
-        <div class="info-block">
-          <h4>Call Me Up!</h4>
-          <p>Butuh jawaban cepat? Feel free to call!</p>
-          <p class="icon-line">📞 081911172873</p>
+    <div class="contact-info">
+      <div class="info-block">
+        <h4>Call Me Up!</h4>
+        <p class="info-desc">Butuh jawaban cepat? Feel free to call!</p>
+        <div class="info-line">
+          <span class="info-icon"><i class="fa-solid fa-phone"></i></span>
+          <span class="info-text">081911172873</span>
         </div>
-        <div class="info-block">
-          <h4>Meet Me IRL</h4>
-          <p>Let’s catch up and talk about cool projects or just chill out!</p>
-          <p class="icon-line">📍 Jl. A. P. Pettarani, Tidung, Kec. Rappocini</p>
+      </div>
+      <div class="info-block">
+        <h4>Meet Me IRL</h4>
+        <p class="info-desc">Let’s catch up and talk about cool projects or just chill out!</p>
+        <div class="info-line">
+          <span class="info-icon"><i class="fa-solid fa-location-dot"></i></span>
+          <span class="info-text">Jl. A. P. Pettarani, Tidung, Kec. Rappocini</span>
         </div>
-        <div class="info-block">
-          <h4>Let’s Chat!</h4>
-          <p>Ingin ngobrol real-time? Klik di sini untuk Mulai Chat</p>
-          <p class="icon-line">💬 Start Chat</p>
+      </div>
+      <div class="info-block">
+        <h4>Let’s Chat!</h4>
+        <p class="info-desc">Ingin ngobrol real-time? Klik di sini untuk Mulai Chat</p>
+        <div class="info-line">
+          <span class="info-icon"><i class="fa-regular fa-comments"></i></span>
+          <span class="info-text">Start Chat</span>
         </div>
       </div>
     </div>
-  </main>
+  </div>
+</main>
 
-  <section class="shall-we">
-    <div class="left">
-      <h1>Shall we?</h1>
-    </div>
-    <div class="right">
-      <p>
-        I believe in learning, sharing, and collaborating to create something meaningful. If you're into digital business, content creation, or self-growth, Let's share ideas, collab, or just talk about life!
-      </p>
-      <button class="email-button">✈️ Email me</button>
-    </div>
+
+  <section class="cta">
+    <h1>Shall we?</h1>
+    <p>I believe in learning, sharing, and collaborating to create something meaningful. Let’s share ideas, collab, or just talk about life!</p>
+    <a href="mailto:ankhalishah01@email.com" class="btn">✉ Email me</a>
   </section>
 
-  <footer class="footer">
-    <p>© 2025 All rights reserved by <span>Azmi Nadhifah Khalishah</span>.</p>
-    <div class="social-icons">
-      <a href="#">📷</a>
-      <a href="#">📘</a>
-      <a href="#">🎵</a>
-      <a href="#">▶️</a>
+  <footer>
+    <p>© 2025 All rights reserved by <a href="#">Azmi Nadhifah Khalishah</a></p>
+    <div class="socials">
+    <a href="#" title="facebook"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="#" title="Spotify"><i class="fa-brands fa-spotify"></i></a>
+    <a href="#" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+    <a href="#" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
     </div>
   </footer>
 </body>
