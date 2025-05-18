@@ -139,7 +139,7 @@ header nav a:hover {
 }
 
 .hero-right img {
-  width: 400px;
+  width: 460px;
   max-width: 95vw;
   border-radius: 0 0 120px 120px/0 0 80px 80px;
   object-fit: contain;
@@ -206,7 +206,7 @@ header nav a:hover {
 }
 .portfolio h2 {
   font-family: 'Nunito';
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight: 800;
   margin-bottom: 0.4rem;
   color: #333;
@@ -338,7 +338,7 @@ header nav a:hover {
 .blog {
   background: #fff;
   padding: 3rem 5vw 2.5rem 5vw;
-  max-width: 1200px;
+  max-width: 1050px;
   margin: 0 auto;
   display: flex;
   gap: 3rem;
@@ -347,7 +347,7 @@ header nav a:hover {
 
 .blog .intro {
   flex: 0 0 370px;
-  max-width: 370px;
+  max-width: 540px;
   text-align: left;
   margin-bottom: 0;
 }
@@ -355,9 +355,9 @@ header nav a:hover {
 .blog .intro h3 {
   font-family: 'Nunito';
   font-weight: 800;
-  font-size: 1.18rem;
+  font-size: 1.3rem;
   color: #222;
-  margin-bottom: 0.7rem;
+  margin-bottom: 1.1rem;
   border-bottom: 2.5px solid #222;
   width: fit-content;
   display: block;
@@ -589,6 +589,39 @@ footer {
   opacity: 1;
 }
 
+/* === Button Back to Top === */
+html {
+  scroll-behavior: smooth;
+}
+
+.btn-back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #A8C3A7; /* warna tombol utama */
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  text-align: center;
+  line-height: 48px;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(168,195,167,0.3);
+  transition: background-color 0.3s ease;
+  z-index: 9999;
+  user-select: none;
+}
+
+.btn-back-to-top:hover,
+.btn-back-to-top:focus {
+  background-color: #8ea892; /* warna hover */
+  outline: none;
+  cursor: pointer;
+}
+
 
 /* === About Page Style === */
 .about-section {
@@ -614,7 +647,7 @@ footer {
 
 .about-title {
   font-weight: 700;
-  font-size: 1.18rem;
+  font-size: 1.3rem;
   color: #222;
   letter-spacing: 0.01em;
   font-family: 'Nunito';
@@ -737,7 +770,7 @@ footer {
 }
 
 .funfact-title h2 {
-  font-size: 1.15rem;
+  font-size: 1.3rem;
   font-weight: 700;
   color: #222;
   margin: 0;
@@ -749,14 +782,13 @@ footer {
 
 .funfact-desc {
   color: #888;
-  font-size: 0.97rem;
+  font-size: 1.05rem;
   text-align: center;
   margin-top: 0.8rem;
   margin-bottom: 2.3rem;
   font-weight: 400;
 }
 
-/* Penyesuaian di sini */
 .funfact-cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -842,7 +874,7 @@ footer {
 
 .portfolio-title {
   font-weight: 700;
-  font-size: 1.18rem;
+  font-size: 1.3rem;
   color: #222;
   letter-spacing: 0.01em;
   font-family: 'Nunito';
@@ -966,7 +998,7 @@ footer {
 }
 
 .tools-title h2 {
-  font-size: 1.15rem;
+  font-size: 1.3rem;
   font-weight: 700;
   color: #222;
   margin: 0;
@@ -978,7 +1010,7 @@ footer {
 
 .tools-desc {
   color: #888;
-  font-size: 0.97rem;
+  font-size: 1.05rem;
   text-align: center;
   margin-top: 0.8rem;
   margin-bottom: 2.3rem;
@@ -1066,7 +1098,7 @@ footer {
 
 .blog-title {
   font-weight: 700;
-  font-size: 1.18rem;
+  font-size: 1.3rem;
   color: #222;
   letter-spacing: 0.01em;
   font-family: 'Nunito';
@@ -1099,8 +1131,8 @@ footer {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  gap: 2.5rem;              /* Atur jarak antar kolom, sesuaikan jika perlu */
-  max-width: 1100px;        /* Batasi lebar konten agar tidak melebar */
+  gap: 2.5rem;              
+  max-width: 1100px;        
   margin: 0 auto;
   padding: 0 3vw;
   width: 100%;
@@ -1237,9 +1269,9 @@ footer {
 .blog-card-image {
   position: relative;
   background-size: cover;
-  background-position: center center; /* atau coba center top jika bagian atas penting */
+  background-position: center center; 
   width: 100%;
-  aspect-ratio: 4 / 3; /* Bikin proporsi gambar konsisten, misal 4:3 */
+  aspect-ratio: 4 / 3; 
   border-radius: 18px 18px 0 0;
   display: flex;
   flex-direction: column;
@@ -1297,53 +1329,6 @@ footer {
 .btn-main:hover {
   background: #8ea892;
 }
-
-/* === Footer === */
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #fff;
-  padding: 1.5rem 4rem 1.2rem 4rem;
-  font-size: 0.97rem;
-  color: #888;
-  border-top: 1px solid #e2e2e2;
-}
-.footer-left {
-  flex: 1;
-  text-align: left;
-}
-.footer-left a {
-  color: #A8C3A7;
-  text-decoration: none;
-  font-weight: 600;
-}
-.footer-right {
-  display: flex;
-  gap: 2rem;
-  align-items: center;
-}
-.footer-right a {
-  color: #000;
-  opacity: 0.8;
-  transition: opacity 0.2s, color 0.2s;
-  align-items: center;
-  font-size: 1.3rem;
-}
-.footer-right a:hover {
-  color: #A8C3A7;
-  opacity: 1;
-}
-
-
-
-
-
-
-
-
-
-
 
 /* ===== PLAYLIST & RECOMMENDATION ===== */
 .playlist-section {
@@ -1517,7 +1502,7 @@ footer {
 }
 .contact-title {
   font-weight: 700;
-  font-size: 1.13rem;
+  font-size: 1.3rem;
   color: #222;
   letter-spacing: 0.01em;
 }
@@ -1529,7 +1514,7 @@ footer {
   display: inline-block;
 }
 .contact-subtitle {
-  font-size: 1.01rem;
+  font-size: 1.05rem;
   color: #888;
   font-weight: 500;
   letter-spacing: 0.01em;
@@ -1566,7 +1551,7 @@ footer {
   color: #222;
 }
 .form-desc {
-  color: #bbb;
+  color: #888;
   font-size: 0.95rem;
   margin-bottom: 18px;
 }
@@ -1688,16 +1673,6 @@ footer {
   font-weight: 600;
   font-size: 1rem;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* ======= RESPONSIVE ======= */
 /* === Responsive Home === */
